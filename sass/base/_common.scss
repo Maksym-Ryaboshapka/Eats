@@ -1,0 +1,25 @@
+* {
+  font-family: "Montserrat";
+}
+
+.btn-primary {
+  background-color: #fa4a0c;
+  border: none;
+
+  &:hover,
+  &:focus {
+    background-color: #ba3e10;
+  }
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 1px solid #fff;
+
+  &:hover,
+  &:focus {
+    background-color: #fff;
+    border: 1px solid transparent;
+    color: #000;
+  }
+}

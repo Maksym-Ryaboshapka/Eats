@@ -1,0 +1,52 @@
+.hero {
+  padding: 80px 0 162px;
+
+  background: url(../../images/hero.webp) center / cover no-repeat;
+
+  &__subtitle {
+    margin: 0 0 10px;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #f6f6f6;
+  }
+
+  &__title {
+    max-width: 799px;
+    margin: 0 auto;
+
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 1.38;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+  }
+
+  &__text {
+    margin: 10px 0 54px;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.58;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #f6f6f6;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    gap: 67px;
+  }
+
+  &__btn {
+    width: 236px;
+    padding: 16px 82px;
+    border-radius: 30px;
+  }
+}

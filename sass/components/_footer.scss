@@ -1,0 +1,23 @@
+.footer {
+  padding: 114px 0 59px;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    width: 150px;
+    height: 65px;
+  }
+
+  &__copyright {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #5c5c5c;
+  }
+}
